@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @venture.name %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @venture.website %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @venture.description %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @venture.country %>
+</p>
+
+<p>
+  <strong>Price range:</strong>
+  <%= @venture.price_range %>
+</p>
+
+<%= link_to 'Edit', edit_venture_path(@venture) %> |
+<%= link_to 'Back', ventures_path %>
